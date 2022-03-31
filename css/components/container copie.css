@@ -1,0 +1,146 @@
+.container-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-content: center
+}
+
+.container1 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: darkred;
+	border-top: 1px;
+	border-right: 2px;
+	border-left: 10px;
+}
+
+#Titre {
+	margin: 5% auto;
+	width: 100%;
+	max-width: 920px;
+	box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.03); 
+}
+#header{
+	height: 200px;
+	margin: 0;
+	background: #black;
+}
+
+
+#header h2 {
+	display: table;
+	color: #9d0208;
+	font-weight: 400;
+	text-align: center;
+	margin: auto;
+	padding: 50px 50px 0 50px;
+	font-size: 55px;
+}
+
+#menu {
+	position: relative;
+	height: 60px;
+	margin: 0;
+	background: red;
+}
+
+#menu:after {
+	position: absolute;
+	content: '\f015';
+	display: inline-block;
+	font-family: FontAwesome;
+	left: 0;
+	top: 0;
+	height: 60px;
+	line-height: 60px;
+	width: 80px;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+#content {
+	position: relative;
+	width: 100px;
+	height: 1260px;
+	margin: 0;
+	background: #ced4da;
+	padding: 20px 0;
+}
+
+#main {
+	position: relative;
+	float: left;
+	width: 70%;
+	padding: 20px 0;
+}
+
+#box {
+	position: relative;
+	width: 93.5px;
+	height: 150px;
+	display: block;
+	background: #black;
+	margin: 0 20px 20px 20px;
+}
+
+#box:before {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	left: 0;
+	top: 0;
+	height: 150px;
+	width: 200px;
+	margin: 0;
+	background: #f6f6f6;
+}
+
+#sidecontent2 {
+	width: 255px;
+	height: 200px;
+	margin: 0 20px 20px auto;
+	background: #999;
+	position: relative;
+}
+
+.ticker-wrap {
+	display: block;
+	text-align: center;
+	margin: 0 20px 20px 20px;
+	padding: 2px;
+	background: red;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 10px solid #ef233c;
+}
+
+.ticker-wrap>span {
+	display: inline-block;
+	background: black;
+	padding: 0;
+	font: 700 13px 'roboto', sans-serif;
+}
+
+
+#arlina {
+  margin: 5% auto;
+  width: 100%;
+  max-width: 920px;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.03);
+}
+
+#side {
+  background: #fff;
+  width: 30%;
+  float: right;
+  position: relative;
+  margin: 0;
+  padding: 0;
